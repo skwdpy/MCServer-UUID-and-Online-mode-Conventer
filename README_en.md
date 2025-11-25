@@ -46,4 +46,4 @@ There are three files in the directory:
 5.  Run `MCServer UUID and Online-mode Conventer.py` with Python.
 
 ## 📄 Documentation
-  * [wiki](https://github.com/skwdpy/Minecraft-Server-Player-UUID-and-Online-Mode-Converter/wiki) - Detailed instructions for configuring `Info.json`.
+  * [wiki](https://github.com/skwdpy/Minecraft-Server-Player-UUID-and-Online-Mode-Converter/wiki/Info.json-File-Parameters-Detailed-Explanation) - Detailed instructions for configuring `Info.json`.
