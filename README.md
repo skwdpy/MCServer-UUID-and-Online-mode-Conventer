@@ -34,16 +34,15 @@
 
 4. 打开`Info.json`，根据你的服务器玩家UUID和需要修改的文件进行配置
 
-   -  可参考wiki中对`Info.json`的介绍来配置
+   * 可参考wiki中对`Info.json`的介绍来配置
 
+      * `root_dir`为你的服务器根目录，如`D:/MC Server`
 
-      *   `root_dir`为你的服务器根目录，如`D:/MC Server`
-
-      *   `changeUUID_folder_name`是你需要修改玩家UUID的文件夹名称，需要根据实际情况和是否需要修改文件中的内容进行修改。
+      * `changeUUID_folder_name`是你需要修改玩家UUID的文件夹名称，需要根据实际情况和是否需要修改文件中的内容进行修改。
 
           例如：原版存档中只需要修改`advancements`、`playerdata`、`stats`这三个文件夹内*每个文件名中的*玩家UUID部分，模组存档例如安装了ftb相关的既要修改*文件中*的玩家UUID，也需要打开这些文件修改*替换文件内的玩家UUID*
 
-      *   `player`是玩家信息，这里你需要填写玩家的昵称（`name`），`online-Mode=true`时的玩家UUID（`Online_uuid`），以及`online-Mode=false`时的玩家UUID（`Offline_uuid`）。
+      * `player`是玩家信息，这里你需要填写玩家的昵称（`name`），`online-Mode=true`时的玩家UUID（`Online_uuid`），以及`online-Mode=false`时的玩家UUID（`Offline_uuid`）。
 
 5. 在Python下运行`MCServer UUID and Online-mode Conventer.py`即可
 
